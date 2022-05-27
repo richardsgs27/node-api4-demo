@@ -10,4 +10,4 @@ server.get('/node-env', (req, res) => {
     res.json({NODE_ENV: process.env.NODE_ENV})
 })
 
-module.exports = server;
+module.exports = server
